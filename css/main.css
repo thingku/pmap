@@ -1,0 +1,500 @@
+.mainContainer {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+#mainHeader {
+	background-color: #373737;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	height: auto;
+	padding: 20px;
+	position: fixed;
+	border-bottom: solid 1px #000;
+}
+
+.logoHolder {
+	width: auto;
+	float: left;
+	overflow: hidden;
+	margin: 0 0 0 20px;
+}
+
+.logoImage {
+	width: auto;
+	margin: 0 20px 0 0;
+}
+
+.logoImage img {
+	width: 80px;
+	height: 80px;
+}
+
+.logoText {
+	width: auto;
+	float: left;
+	overflow: hidden;
+	padding: 15px 0 0 0;
+}
+
+.logoText h5 {
+	color: #FFF;
+	font-weight: 700;
+	width: auto;
+	float: left;
+	overflow: hidden;
+	clear: both;
+}
+
+.logoText p {
+	color: #FFF;
+	font-size: 14px;
+	width: auto;
+	float: left;
+	overflow: hidden;
+	clear: both;
+}
+
+	@media all  and (max-width: 1200px) { 
+	
+		#sideBar {
+			width: 42px;
+			float: left;
+			overflow: hidden;
+			position: fixed;
+			height: 100%;
+			background-color: rgba(55,55,55,.8);
+			top:125px;
+		    -webkit-transition: width .5s ease-in-out;
+		    -moz-transition: width .5s ease-in-out;
+		    -o-transition: width .5s ease-in-out;
+		    transition: width .5s ease-in-out;				
+		}
+
+		.menuListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+		.menuListHolder > li {
+			border-bottom: solid 1px #494949;
+			padding: 15px 0;
+			width: 100%;
+			float: left;
+		/*	display: inline-block;*/
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		.menuIcon {
+			width: 20px;
+			float: left;
+			overflow: hidden;
+			margin: 0 0px 0 10px;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.menuLabel {
+			width: 160px;
+			float: left;
+			overflow: hidden;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 3px 0px 0 10px;	
+			display: none;
+		}
+
+		.menuChildListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+
+		.caretHolder {
+			float: right;
+			width: auto;
+			overflow: hidden;
+			font-weight: 700;
+			margin: 0 10px 0 0;
+			display: none;
+		}
+
+		.eventList {
+			background-color: #2a2a2a;
+			display: none;
+		}
+
+		.eventList .menuLabel {
+			text-transform: none;
+		}
+
+		.activeList {
+			background-color: #555354;
+		}
+
+		.activeEventList {
+			background-color: #154c9c;
+		}
+
+		.activeEventList .caretHolder {
+			display: block;
+		}		
+
+		.childList {
+			display: none;
+
+		}
+
+	}
+
+	@media all and (min-width: 1201px) and (max-width: 1920px) { 
+
+		#sideBar {
+			width: 200px;
+			float: left;
+			overflow: hidden;
+			position: fixed;
+			height: 100%;
+			background-color: #373737;
+			top:125px;
+		}
+
+		.menuListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+		.menuListHolder > li {
+			border-bottom: solid 1px #494949;
+			padding: 15px 0;
+			width: 100%;
+			float: left;
+		/*	display: inline-block;*/
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		.menuIcon {
+			width: 20px;
+			float: left;
+			overflow: hidden;
+			margin: 0 0px 0 10px;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.menuLabel {
+			width: 160px;
+			float: left;
+			overflow: hidden;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 3px 0px 0 10px;	
+		}
+
+		.menuChildListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+		.caretHolder {
+			float: right;
+			width: auto;
+			overflow: hidden;
+			font-weight: 700;
+			margin: 0 10px 0 0;
+			display: none;
+		}
+
+		.eventList {
+			background-color: #2a2a2a;
+			display: none;
+		}
+
+		.eventList .menuLabel {
+			text-transform: none;
+		}
+
+		.activeList {
+			background-color: #555354;
+		}
+
+		.activeEventList {
+			background-color: #154c9c;
+		}
+
+		.activeEventList .caretHolder {
+			display: block;
+		}
+
+	}	
+
+
+.onClick {
+	width: 200px!important;
+	-webkit-transition: width .3s ease-in-out;
+	-moz-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;	
+}
+
+.onClick .menuLabel {
+	display: block;
+}
+
+
+#mainContent {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	height: auto;
+	background-color: #fff;
+}
+
+.mainContentDetailsHolder {
+	width: 900px;
+	margin: 125px 0 0 0;
+	float: right;
+	overflow: hidden;
+}
+
+.breadCrumbs {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.breadCrumbsListHolder {
+	width: auto;
+	float: left;
+	overflow: hidden;
+	padding: 20px 30px;
+}
+
+.breadCrumbsListHolder > li {
+	display: inline-block;
+	padding: 0px 15px 0 0px;
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+
+.pageLabel {
+	width: auto;
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+	color: #3c3c3b;
+}
+
+.pageCaretHolder {
+	width: auto;
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+	color: #444;
+	margin: 0 0 0 20px;
+}
+
+.headLine {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.headLineContentsHolder {
+	padding: 10px 30px 0;
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+
+.headLineContentsHolder h4 {
+	color: #204b9a;
+	font-weight:500;
+}
+
+.subHeadLine {
+	width: 100%;
+	float: left;
+	overflow: hidden;	
+}
+
+.subHeadLineHolder {
+	padding: 10px 30px 0;
+	width: auto;
+	float: left;
+	overflow: hidden;	
+}
+
+.subHeadLineHolder h6 {
+	color: #005FAA;
+}
+
+.tabContents {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.tabContentsHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.tabTitleList {
+	width: auto;
+	float: left;
+	overflow: hidden;
+	padding: 30px 0 0 0;
+}
+
+.tabTitleList > li {
+	padding: 10px 30px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	min-width: 150px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.detailsTitle {
+	background-color: #eee;
+	color: #204b9a;
+}
+
+.preRegisterTitle {
+	background-color: #204b9a;
+	color: #eee;
+}
+
+.tabDetailsHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.tabDetailsList {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.tabDetailsList > li {
+	float: left;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	display: none;
+	padding: 0 0 30px;
+}
+
+.detailsContent {
+	float: left;
+	overflow: hidden;
+	color: #444;
+	font-size: 14px;
+	background-color: #eee;
+	
+}
+
+.preRegisterContent {
+	float: left;
+	overflow: hidden;
+	background-color: #204b9a;
+	display: none;
+}
+
+.activeTab {
+	display: inline-block!important;
+}
+
+.tabContentDetails {
+	line-height: 18px;
+	padding: 30px;
+}
+
+.preregisterFormList {
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+
+.preregisterFormList > li {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 10px 0;
+}
+
+.formLabel {
+	width: 100px;
+	float: left;
+	overflow: hidden;
+	margin: 5px 10px 0 0;
+	font-size: 14px;
+}
+
+.formInput {
+	width: 300px;
+	float: left;
+	overflow: hidden;
+}
+
+.formInput input {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+	border: none;
+	font-size: 14px;
+}
+
+.formInput select {
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+	margin: 0 10px 0 0;
+	border: none;
+}
+
+.formButton {
+	width: 100px;
+	float: right;
+	overflow: hidden;
+	clear: both;
+	margin: 0 30px 0 0;	
+}
+
+.formButton button {
+	background-color: #eee416;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	border: none;
+	border-radius: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+}

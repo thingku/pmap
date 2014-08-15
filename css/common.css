@@ -1,0 +1,67 @@
+html,table,tbody,thead,body,p,a,p,span,div,ul,li,ol,h1,h2,h3,h4,h5,h6,header,nav,details,article,footer,summary,aside,section {
+	line-height: normal;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+p,h1,h2,h3,h4,h5,h6,li,a,span,div,input,select,textarea {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+div,li,header,nav,section,footer,summary,aside,span {
+	float: left;
+	overflow: hidden;
+	letter-spacing: normal;
+	list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+	background-color: #FFF;
+	position: relative;
+   	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   	color: #FFF; 
+}
+
+h1 {
+	font-size: 38px;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+br {
+	clear: both;
+}
+
