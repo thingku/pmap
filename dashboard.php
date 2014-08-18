@@ -11,16 +11,25 @@
 	<script type="text/javascript" src="js/library.js"></script>
 	<link rel="stylesheet" media="all" href="css/common.css"/>
 	<link rel="stylesheet" media="all" href="css/main.css"/>
+	<link rel="stylesheet" media="all" href="css/sidebar.css"/>
 </head>
 <body>
+
+	<?php $currPage = 'dashboard'; ?>
 	
 	<div class="mainContainer">
 
 		<?php include 'header.php'; ?>
 
-		<?php include 'sidebar.php'; ?>
+		<div id="pageContent">
 
-		<?php include 'content.php'; ?>
+			<?php include '/pages/'.$currPage.'/sidebar.php'; ?>
+
+			<?php include '/pages/'.$currPage.'/contents.php'; ?>
+
+		</div>
+
+		
 
 	</div>
 
@@ -32,9 +41,9 @@
 
 		$.fn.sideBar();
 
-		$.fn.mainContent();
+		// /$.fn.mainContent();
 
-		$.fn.tabContents();
+		//$.fn.tabContents();
 
 	});
 

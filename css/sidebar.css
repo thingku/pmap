@@ -1,0 +1,194 @@
+	@media all  and (max-width: 1200px) { 
+	
+		#sideBar {
+			width: 42px;
+			float: left;
+			overflow: hidden;
+			height: 100%;
+			background-color: rgba(55,55,55,.8);
+		    -webkit-transition: width .1s ease-in-out;
+		    -moz-transition: width .1s ease-in-out;
+		    -o-transition: width .1s ease-in-out;
+		    transition: width .1s ease-in-out;	
+		    position: fixed;			
+		}		
+
+		.menuListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+		.menuListHolder > li {
+			border-bottom: solid 1px #494949;
+			padding: 15px 0;
+			width: 100%;
+			float: left;
+		/*	display: inline-block;*/
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		.menuIcon {
+			width: 20px;
+			float: left;
+			overflow: hidden;
+			margin: 0 0px 0 10px;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.menuLabel {
+			width: 160px;
+			float: left;
+			overflow: hidden;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 3px 0px 0 10px;	
+			display: none;
+		}
+
+		.menuChildListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+
+		.caretHolder {
+			float: right;
+			width: auto;
+			overflow: hidden;
+			font-weight: 700;
+			margin: 0 10px 0 0;
+			display: none;
+		}
+
+		.eventList {
+			background-color: #2a2a2a;
+			display: none;
+		}
+
+		.eventList .menuLabel {
+			text-transform: none;
+		}
+
+		.activeList {
+			background-color: #555354;
+		}
+
+		.activeChildList {
+			background-color: #154c9c!important;
+		}
+
+		.activeChildList .caretHolder {
+			display: block;
+		}		
+
+		.childList {
+			display: none;
+			background-color: rgba(55,55,55,1);
+		}
+
+	}
+
+	@media all and (min-width: 1201px) and (max-width: 1920px) { 
+
+		#sideBar {
+			width: 200px;
+			float: left;
+			overflow: hidden;
+			height: 100%;
+			background-color: #373737;
+		}
+		
+		.menuListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+		.menuListHolder > li {
+			border-bottom: solid 1px #494949;
+			padding: 15px 0;
+			width: 100%;
+			float: left;
+		/*	display: inline-block;*/
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		.menuIcon {
+			width: 20px;
+			float: left;
+			overflow: hidden;
+			margin: 0 0px 0 10px;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.menuLabel {
+			width: 160px;
+			float: left;
+			overflow: hidden;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 3px 0px 0 10px;	
+		}
+
+		.menuChildListHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+
+		.caretHolder {
+			float: right;
+			width: auto;
+			overflow: hidden;
+			font-weight: 700;
+			margin: 0 10px 0 0;
+			display: none;
+		}
+
+		.eventList {
+			background-color: #2a2a2a;
+			display: none;
+		}
+
+		.eventList .menuLabel {
+			text-transform: none;
+		}
+
+		.activeList {
+			background-color: #555354;
+		}
+
+		.activeChildList {
+			background-color: #154c9c!important;
+		}
+
+		.activeChildList .caretHolder {
+			display: block;
+		}
+
+		.childList {
+			display: none;
+
+		}		
+
+	}	
+
+.onClick {
+	width: 200px!important;
+	-webkit-transition: width .3s ease-in-out;
+	-moz-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;	
+}
+
+.onClick .menuLabel {
+	display: block;
+}

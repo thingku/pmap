@@ -22,6 +22,12 @@
 
                             if ( cc == undefined ) {
 
+                                 $('ul > .menuList').removeClass('activeList');
+
+                                 $(this).addClass('activeList');
+
+                                 $('.childList').hide();                                
+
                             } else {
 
                                 $('ul > .menuList').removeClass('activeList');
@@ -38,9 +44,9 @@
 
                         } else {
 
-                            $('ul > .childList').removeClass('activeEventList');
+                            $('ul > .childList').removeClass('activeChildList');
 
-                            $(this).addClass('activeEventList');
+                            $(this).addClass('activeChildList');
 
                         }
 
@@ -51,6 +57,13 @@
                             var cc = $(this).attr('class').split(' ')[1];
 
                             if ( cc == undefined ) {
+
+                                 $('ul > .menuList').removeClass('activeList');
+
+                                 $(this).addClass('activeList');
+
+                                 $('.childList').hide();
+
 
                             } else {
 
@@ -68,9 +81,9 @@
 
                         } else {
 
-                            $('ul > .childList').removeClass('activeEventList');
+                            $('ul > .childList').removeClass('activeChildList');
 
-                            $(this).addClass('activeEventList');
+                            $(this).addClass('activeChildList');
 
                         }
 
@@ -112,6 +125,12 @@
 
                             if ( cc == undefined ) {
 
+                                 $('ul > .menuList').removeClass('activeList');
+
+                                 $(this).addClass('activeList');
+
+                                 $('.childList').hide();                                
+
                             } else {
 
                                 $('ul > .menuList').removeClass('activeList');
@@ -128,9 +147,9 @@
 
                         } else {
 
-                            $('ul > .childList').removeClass('activeEventList');
+                            $('ul > .childList').removeClass('activeChildList');
 
-                            $(this).addClass('activeEventList');
+                            $(this).addClass('activeChildList');
 
                         }
 
@@ -153,8 +172,6 @@
                 }
 
             });
-
-            console.log(ss);
 
         });
 
